@@ -24,28 +24,31 @@
     </div>
 
     <div class="forms">
-        <h1> Forms </h1> 
+            <h1> Forms </h1> 
 
-        <!-- This is a form-->
-            <form action="/contact.html">
-                <label for="user">Username</label>
-                <input required minlength="5" placeholder="Enter Username" name="user" type="text" id="user" />
+            <!-- This is a form-->
+            <div class="formcontent">
+                <form action="/contact.html">
+                    <label for="user">Username</label>
+                    <input required minlength="5" placeholder="Enter Username" name="user" type="text" id="user" />
 
-                <label for="email">Email</label>
-                <input required name="name" type="email" id="email" />
+                    <label for="email">Email</label>
+                    <input required name="name" type="email" id="email" />
 
-                <select name="product" id="product">
-                    <option value="Macbook 2022">Macbook</option>
-                    <option value="Iphone 2022">Iphone</option>
-                </select>
+                    <select name="product" id="product">
+                        <option value="Macbook 2022">Macbook</option>
+                        <option value="Iphone 2022">Iphone</option>
+                    </select>
 
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-                <input type="radio" name="products" value="macbook">
-                <input type="radio" name="products" value="iphone">
+                    <input type="radio" name="products" value="macbook">
+                    <input type="radio" name="products" value="iphone">
 
-                <button type="submit">Submit</button>
-            </form>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>    
+        </form>
     </div>
 </body>
 
