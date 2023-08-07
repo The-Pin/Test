@@ -1,0 +1,55 @@
+body {
+    font-family: 'Urbanist', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.create-account-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.create-account-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.create-account-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-account-form button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.create-account-form button:hover {
+    background-color: #0056b3;
+}
