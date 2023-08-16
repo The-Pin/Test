@@ -1,16 +1,17 @@
 body {
     font-family: 'Urbanist', Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #ebebec;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -40,7 +41,7 @@ body {
 }
 
 .create-account-form button {
-    background-color: #007bff;
+    background-color: #1a1712;
     border: none;
     color: #fff;
     padding: 10px;
@@ -51,5 +52,5 @@ body {
 }
 
 .create-account-form button:hover {
-    background-color: #0056b3;
+    background-color: #414143;
 }
